@@ -1,0 +1,13 @@
+provides detailed help on how to use the command
+```
+!r help [command]
+```
+### Examples
+provides overall help for reminders:
+```
+!r help
+```
+provides detailed help on specified command:
+```
+!r help new
+```

@@ -1,0 +1,21 @@
+configures reminder settings on user or guild, or provides the current configuration for the specified user or guild
+```
+!r config <option> <value> [--server]
+!r config [@user|--server]
+```
+### Available options
+- **timezone**
+configs timezone for user or guild with format **hh:mm*
+### Examples
+provides your current configuration
+```
+!r config
+```
+provides current configuration for the user
+```
+!r config @some.guy
+```
+provides current configuration for the guild
+```
+!r config --server
+```

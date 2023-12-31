@@ -1,0 +1,11 @@
+deletes a reminder with the specified id
+```
+!r del <id>
+```
+### ID Keywords:
+- **last**
+points to the newest user reminder
+- **first**
+points to the oldest user reminder
+- **all**
+points to all user reminders

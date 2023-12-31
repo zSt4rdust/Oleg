@@ -1,0 +1,26 @@
+creates a new reminder
+```
+!r new <expression> [message]
+```
+you can also create reminders with attachments
+### Examples
+creates a new reminder with durational expression
+```
+!r new 10h5m
+```
+creates a new reminder with hhmm expression
+```
+!r new 17:00
+```
+creates a new reminder with date expression
+```
+!r new 1.1.2024 happy new year!
+```
+creates a new reminder with time expression
+```
+!r new 8.11.2024-9:00 good morning and happy birthday!
+```
+creates a new reminder with custom message
+```
+!r new 10h5m clean up the room
+```

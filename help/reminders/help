@@ -1,0 +1,18 @@
+### Available reminder commands
+- **!r help**
+provides detailed help on how to use the command
+- **!r new**
+creates a new reminder
+- **!r del**
+deletes a reminder with the specified id
+- **!r edit**
+edits the parameters of the reminder with the specified id
+- **!r list**
+provides a list of active reminders for the specified user
+- **!r config**
+configures reminder settings on user or guild, or provides the current configuration for the specified user or guild
+
+### To get started, use
+```
+!r help <command>
+```

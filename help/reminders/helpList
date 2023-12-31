@@ -1,0 +1,13 @@
+provides a list of active reminders for the specified user
+```
+!r list [@user]
+```
+### Examples
+provides a list of your active reminders
+```
+!r list
+```
+provides a list of active reminders for the specified user
+```
+!r list @some.guy
+```

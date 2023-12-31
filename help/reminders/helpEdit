@@ -1,0 +1,31 @@
+edits the reminder with the specified id
+```
+!r edit <id> <option> <value>
+```
+### Available options
+- **time**
+edits reminder's time with durational/hhmm expression
+- **message**
+edits reminder's message
+- **attachments**
+edits reminder's attachments
+### Examples
+edits time of the reminder with the specified id with *hh:mm* expression  
+```
+!r edit 2 time 15:00
+```
+edits time of the reminder with the specified id with durational expression  
+```
+!r edit 4 time 3h5m
+```
+edits message of the reminder with the specified id
+```
+!r edit 3 message do the dishes
+```
+### ID Keywords:
+- **last**
+points to the newest user reminder
+- **first**
+points to the oldest user reminder
+- **all**
+points to all user reminders
